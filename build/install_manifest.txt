@@ -1,0 +1,10 @@
+C:/Dev/mylib/data/dir/dir2/Lenna3.ppm
+C:/Dev/mylib/data/dir/Lenna2.ppm
+C:/Dev/mylib/include/mylib/config.h
+C:/Dev/mylib/bin/program1/program1.exe
+C:/Dev/mylib/bin/program2/program2.exe
+C:/Dev/mylib/lib/mylib_fuga.lib
+C:/Dev/mylib/include/mylib/fuga/fuga_test.hxx
+C:/Dev/mylib/lib/mylib_hoge.lib
+C:/Dev/mylib/include/mylib/hoge/hoge_test.hxx
+C:/Dev/mylib/include/mylib/hoge/hoge_test2.hxx

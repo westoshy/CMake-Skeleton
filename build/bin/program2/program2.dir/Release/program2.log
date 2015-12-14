@@ -1,0 +1,9 @@
+﻿2015/12/14 14:57:34 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program2\program2.vcxproj" (Build ターゲット)。
+     1>Link:
+         program2.vcxproj -> C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program2\Release\program2.exe
+     1>プロジェクト "C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program2\program2.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.14

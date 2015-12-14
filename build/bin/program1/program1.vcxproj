@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2B0D9BB5-B25F-4E86-BFB5-7FCB11A4A05D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>program1</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">program1.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">program1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">program1.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">program1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">program1.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">program1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">program1.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">program1</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\modules\mylib\hoge\Debug\mylib_hoge.lib;..\..\modules\mylib\fuga\Debug\mylib_fuga.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xphoto300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xobjdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ximgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_tracking300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_surface_matching300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_stereo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_saliency300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_rgbd300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_reg300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_optflow300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_line_descriptor300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_latentsvm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_datasets300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ccalib300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_bioinspired300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_bgsegm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_videostab300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_superres300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_stitching300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_photo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_hal300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudastereo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaoptflow300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaobjdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudalegacy300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaimgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudafeatures2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudacodec300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudabgsegm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_text300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_face300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xfeatures2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_shape300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudawarping300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_objdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudafilters300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaarithm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_calib3d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_features2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ml300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_highgui300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_videoio300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_imgcodecs300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_flann300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_video300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_imgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_core300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudev300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_hal300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\..\staticlib\ippicvmt.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/Win32;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/Win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/bin/program1/Debug/program1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/bin/program1/Debug/program1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\modules\mylib\hoge\Release\mylib_hoge.lib;..\..\modules\mylib\fuga\Release\mylib_fuga.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xphoto300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xobjdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ximgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_tracking300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_surface_matching300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_stereo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_saliency300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_rgbd300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_reg300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_optflow300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_line_descriptor300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_latentsvm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_datasets300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ccalib300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_bioinspired300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_bgsegm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_videostab300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_superres300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_stitching300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_photo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_hal300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudastereo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaoptflow300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaobjdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudalegacy300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaimgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudafeatures2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudacodec300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudabgsegm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_text300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_face300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xfeatures2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_shape300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudawarping300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_objdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudafilters300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaarithm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_calib3d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_features2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ml300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_highgui300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_videoio300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_imgcodecs300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_flann300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_video300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_imgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_core300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudev300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_hal300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\..\staticlib\ippicvmt.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/Win32;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/Win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/bin/program1/Release/program1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/bin/program1/Release/program1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\modules\mylib\hoge\MinSizeRel\mylib_hoge.lib;..\..\modules\mylib\fuga\MinSizeRel\mylib_fuga.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xphoto300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xobjdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ximgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_tracking300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_surface_matching300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_stereo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_saliency300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_rgbd300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_reg300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_optflow300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_line_descriptor300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_latentsvm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_datasets300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ccalib300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_bioinspired300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_bgsegm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_videostab300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_superres300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_stitching300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_photo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_hal300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudastereo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaoptflow300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaobjdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudalegacy300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaimgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudafeatures2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudacodec300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudabgsegm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_text300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_face300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xfeatures2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_shape300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudawarping300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_objdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudafilters300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaarithm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_calib3d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_features2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ml300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_highgui300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_videoio300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_imgcodecs300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_flann300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_video300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_imgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_core300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudev300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_hal300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\..\staticlib\ippicvmt.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/Win32;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/Win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/bin/program1/MinSizeRel/program1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/bin/program1/MinSizeRel/program1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\modules;C:\Dev\opencv3.0\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\modules\mylib\hoge\RelWithDebInfo\mylib_hoge.lib;..\..\modules\mylib\fuga\RelWithDebInfo\mylib_fuga.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xphoto300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xobjdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ximgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_tracking300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_surface_matching300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_stereo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_saliency300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_rgbd300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_reg300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_optflow300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_line_descriptor300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_latentsvm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_datasets300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ccalib300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_bioinspired300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_bgsegm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_videostab300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_superres300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_stitching300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_photo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_hal300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudastereo300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaoptflow300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaobjdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudalegacy300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaimgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudafeatures2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudacodec300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudabgsegm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_text300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_face300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_xfeatures2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_shape300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudawarping300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_objdetect300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudafilters300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudaarithm300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_calib3d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_features2d300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_ml300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_highgui300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_videoio300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_imgcodecs300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_flann300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_video300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_imgproc300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_core300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_cudev300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\opencv_hal300.lib;C:\Dev\opencv3.0\build\install\x86\vc12\lib\..\staticlib\ippicvmt.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib;cudart.lib;nppc.lib;nppi.lib;npps.lib;cufft.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/Win32;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v6.5/lib/Win32/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/bin/program1/RelWithDebInfo/program1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/bin/program1/RelWithDebInfo/program1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/bin/program1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/nishimura/Developments/CMake-Skeleton-Project-151214 -BC:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build --check-stamp-file C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/bin/program1/CMakeLists.txt;C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt;C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/bin/program1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/nishimura/Developments/CMake-Skeleton-Project-151214 -BC:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build --check-stamp-file C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/bin/program1/CMakeLists.txt;C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt;C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/bin/program1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/nishimura/Developments/CMake-Skeleton-Project-151214 -BC:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build --check-stamp-file C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/bin/program1/CMakeLists.txt;C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt;C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/bin/program1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/nishimura/Developments/CMake-Skeleton-Project-151214 -BC:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build --check-stamp-file C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/bin/program1/CMakeLists.txt;C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt;C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\build\bin\program1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nishimura\Developments\CMake-Skeleton-Project-151214\bin\program1\main.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/ZERO_CHECK.vcxproj">
+      <Project>086C4124-372C-4E65-B3BF-7D6509741091</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/modules/mylib/fuga/mylib_fuga.vcxproj">
+      <Project>4FD93628-23DF-4F67-936C-B00E9E5BFB7E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/nishimura/Developments/CMake-Skeleton-Project-151214/build/modules/mylib/hoge/mylib_hoge.vcxproj">
+      <Project>9CCAA937-992F-4C4F-A93E-F36FDAFBB1D7</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
